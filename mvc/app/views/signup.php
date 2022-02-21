@@ -60,7 +60,7 @@ body{
   <div class="container">
     <div class="row no-gutters">
       <div class="col-lg-5">
-        <img  src="assets/image3.jpg" alt="" class="img-fluid d-flex align-items-stretch">
+        <img  src="assets/image9.jpg" alt="" class="img-fluid d-flex align-items-stretch">
       </div>
       <div class="col-lg-7 px-5 py-1">
         <img class="logo py-3" src="assets/logo.png" alt="">
@@ -85,7 +85,7 @@ body{
           </div>  
             <div class="form-row">
             <div class="col-lg-7">
-              <button type=button  class="btn1 mt-3 mb-5">Create Account</button>
+              <button type=button  class="btn1 mt-3 mb-5"><a href="./login"> Create Account </a></button>
             </div>
           </div>
 

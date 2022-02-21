@@ -140,7 +140,7 @@
           margin-left : 25px;
       }
     </style>
-    <a href="./signin"> Sign in</a>
+    <a href="./signup"> Sign up</a>
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -154,7 +154,7 @@
         <h5>SPACE FORCE CAST MAKE A CASE FOR YOUR WEEKEND BINGE OF SEASON 2</h5>
         <p>TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
       <div class="slider-btn">
-      <div class="btn btn-1 " ><a href="/signin.php"> Sign in</a></div>
+      <div class="btn btn-1 " ><a href="/signup.php"> Sign up</a></div>
           <div class="btn btn-2">Log in</div>
       </div>
     </div>
@@ -166,7 +166,7 @@
         <p>TAWNY NEWSOME, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
 
         <div class="slider-btn">
-          <div class="btn btn-1">Sign in</div>
+          <div class="btn btn-1">Sign up</div>
           <div class="btn btn-2">Log in</div>
       </div>  
     </div>
@@ -179,7 +179,7 @@
         <p>TAWNY NEWSOME, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
 
         <div class="slider-btn">
-        <div class="btn btn-1">Sign in</div>
+        <div class="btn btn-1">Sign up</div>
           <div class="btn btn-2">Log in</div>
       </div>
       </div>
@@ -223,57 +223,54 @@ hello from Home
         <div class="about-film text-center">
             <h3>Title film1</h3>
             <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
         </div>
-    </div>  
-    <div class="card text-center">
+    </div>      <div class="card text-center">
         <div class="image">
-            <img src="assets/image3.jpg" width="300" height="270px" alt="">
+            <img src="assets/image1.jpg" width="300" height="270px" alt="">
         </div>
         <div class="about-film text-center">
             <h3>Title film1</h3>
             <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
         </div>
-    </div>   
-    <div class="card text-center">
+    </div>     <div class="card text-center">
         <div class="image">
-            <img src="assets/images/post-10.jpg" width="300" height="270px" alt="">
+            <img src="assets/image1.jpg" width="300" height="270px" alt="">
         </div>
         <div class="about-film text-center">
             <h3>Title film1</h3>
             <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
+        </div>
+    </div>     <div class="card text-center">
+        <div class="image">
+            <img src="assets/image1.jpg" width="300" height="270px" alt="">
+        </div>
+        <div class="about-film text-center">
+            <h3>Title film1</h3>
+            <h4>chi <small>haja</small></h4>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
+        </div>
+    </div>     <div class="card text-center">
+        <div class="image">
+            <img src="assets/image1.jpg" width="300" height="270px" alt="">
+        </div>
+        <div class="about-film text-center">
+            <h3>Title film1</h3>
+            <h4>chi <small>haja</small></h4>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
+        </div>
+    </div>     <div class="card text-center">
+        <div class="image">
+            <img src="assets/image1.jpg" width="300" height="270px" alt="">
+        </div>
+        <div class="about-film text-center">
+            <h3>Title film1</h3>
+            <h4>chi <small>haja</small></h4>
+            <button class="btn btn-success button"><a href="./post">Show more</a></button>
         </div>
     </div> 
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div> <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div> <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div>
 </div>
 
 

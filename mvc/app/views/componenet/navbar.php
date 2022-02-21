@@ -155,8 +155,9 @@
             <li><a href="#">Now Showing</a></li>
             <li><a href="#">Coming Soon</a></li>
             <li><a href="#">Concession</a></li> -->
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="./login"> Login in</a></li>
+            <li><a href="./signup"> Sign up</a></li>
+            
         </ul></div>
         <div class="menu-btn">
         <i class="fa fa-bars"></i>
