@@ -2,79 +2,14 @@
     
     .wrapper{
             width: 100%;
-            height: 100vh;
+
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            background-color: #000;
+            /* background-color: #000; */
         }
-        .card{
-            background-color: #2a0182;
-            width: 100%;
-            height: 420px;
-            margin: 10px;
-            border-style: 0 0 5px #a80000;
-            position: relative;
-            overflow: hidden;
-            cursor: pointer;
-            text-align: center !important;
-        }
-        .card::before{
-          background: #a80000;
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          content: "" ;
-          top: -50%;
-          transform: skewY(345deg);
-          transition: 1s ease-in;
-      }
-      .card:hover::before{
-          top :-70%;
-          transform: skewY(390deg);
-      }
-      .image{
-          position: absolute;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-      }
-      .image img{
-          max-width: 100%;
-
-          transition: 0.7s ease-in;
-          border-radius: 5px;
-
-
-      }
-      .card:hover .image img{
-          width: 80%;
-      }
-      .about-film{
-          position: absolute;
-          bottom: -50px !important;
-          left: 20%
-          ;color: #000;
-          text-align: center;
-          transition: 1s ease-in;
-
-      }
-      .card:hover .about-film{
-          bottom: 15px !important;
-      }
-      .card .button{
-        color: #fff;
-        width: 150px;
-        background-color: #a80000;
-        margin-top: 20px;
-        border:none;
-      }
-      .about-film h3{
-          margin-left : 25px;
-      }
+    
 </style>
 
 
@@ -130,72 +65,89 @@
                 </div> -->
                 
 <div class="wrapper">
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/image1.jpg" width="300" height="270px" alt="">
+   
+    <div class="container d-flex flex-column">
+        <div class="post d-flex align-items-center">
+        
+        <img src="assets/images/p-1.jpg" class="w-25" alt="">
+
+            <div class="description ms-5 d-flex flex-column">
+                <div>
+                <h1>Title 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                </div>
+            <div>
+                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
         </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div>  
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/image3.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div>   
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-10.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div> 
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div> <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div> 
-    <div class="card text-center">
-        <div class="image">
-            <img src="assets/images/post-1.jpg" width="300" height="270px" alt="">
-        </div>
-        <div class="about-film text-center">
-            <h3>Title film1</h3>
-            <h4>chi <small>haja</small></h4>
-            <button class="btn btn-success button">Show more</button>
-        </div>
-    </div>
 </div>
+        
+</div>
+    </div>
+<div class="container d-flex flex-column">
+    <div class="post d-flex align-items-center">
+        
+        <img src="assets/images/p-4.jpg" class="w-25" alt="">
 
-
+            <div class="description ms-5 d-flex flex-column">
+                <div>
+                <h1>Title 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
+                <div></div>
+                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                </div>
             </div>
-        </div>
-    </div>
+        
+    </div> 
+    
 </div>
+ <div class="container d-flex flex-column">
+    <div class="post d-flex align-items-center">
+        
+        <img src="assets/images/p-5.jpg" class="w-25" alt="">
+
+            <div class="description ms-5 d-flex flex-column">
+                <div>
+                <h1>Title 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
+                <div></div>
+                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                </div>
+            </div>
+        
+    </div> 
+    
+</div> 
+<div class="container d-flex flex-column">
+    <div class="post d-flex align-items-center">
+        
+        <img src="assets/images/p-6.jpg" class="w-25" alt="">
+
+            <div class="description ms-5 d-flex flex-column">
+                <div>
+                <h1>Title 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
+                <div></div>
+                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                </div>
+            </div>
+        
+    </div> 
+    
+</div>
+
+
 
 
 <?php 
