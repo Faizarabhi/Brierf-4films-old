@@ -33,61 +33,100 @@
 
 
 
-        <div class="allcmnts"style="background-color: green;" >
-            <div class="cmnt d-flex  align-items-center w-25 ">
+        <div class="allcmnts" >
+        <div class="cmnt d-flex border border-dark align-items-center w-100 ">
                     <div class="h-25 w-25" style="background-color: #eee;">
-                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle" style="width:100%; height:100%;"alt="">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: red;">
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
                         <a href="#">Taha Lachgar</a>       
-                        <p>ana lcommentair en personne</p>
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
             </div> 
-             <div class="cmnt d-flex align-items-center w-25 ">
+            <div class="cmnt d-flex border border-dark align-items-center w-100 ">
                     <div class="h-25 w-25" style="background-color: #eee;">
-                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle" style="width:100%; height:100%;"alt="">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: red;">
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
                         <a href="#">Taha Lachgar</a>       
-                        <p>ana lcommentair en personne</p>
-                    </div>
-            </div>  <div class="cmnt  d-flex align-items-center w-25">
-                    <div class="h-25 w-25" style="background-color: #eee;">
-                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle" style="width:100%; height:100%;"alt="">
-                    </div>
-                    <div class="comment w-75 ms-5 "style="background-color: red;">
-                        <a href="#">Taha Lachgar</a>       
-                        <p>ana lcommentair en personne</p>
-                    </div>
-            </div>  <div class="cmnt  d-flex align-items-center w-25">
-                    <div class="h-25 w-25" style="background-color: #eee;">
-                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle" style="width:100%; height:100%;"alt="">
-                    </div>
-                    <div class="comment w-75 ms-5 "style="background-color: red;">
-                        <a href="#">Taha Lachgar</a>       
-                        <p>ana lcommentair en personne</p>
-                    </div>
-            </div>
-              <div class="cmnt d-flex align-items-center w-25">
-                    <div class="h-25 w-25" style="background-color: #eee;">
-                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle" style="width:100%; height:100%;"alt="">
-                    </div>
-                    <div class="comment w-75 ms-5 "style="background-color: red;">
-                        <a href="#">Taha Lachgar</a>       
-                        <p>ana lcommentair en personne</p>
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
             </div> 
-            
-    </div>
+             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
+             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
+             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
+             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
+                <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
+                <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                        <a href="#">Taha Lachgar</a>       
+                        <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
+                    </div>
+            </div> 
 
-<div class="cmnt d-flex  align-items-center my-5 ">
+<!-- <div class="cmnt d-flex  align-items-center my-5 ">
                 <form class="w-100   ms-5 "  action="">
-                    <input placeholder="write your comment here" class="w-75  h-100 border-dark " type="text">
-                    
+                    <input placeholder="write your comment here" class="w-75  h-100 border border-dark " type="text">
+                    <input type="submit" value="send">
                 </form>
-                   
+                    
+            </div> -->
+            
+            <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+                    <div class="h-25 w-25" style="background-color: #eee;">
+                    <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
+                    </div>
+                    <div class="cmnt d-flex  align-items-center my-5 ">
+                <form class="w-100   ms-5 "  action="">
+                    <input placeholder="write your comment here" class="w-75  h-100 border border-dark " type="text">
+                    <input type="submit" value="send">
+                </form>
+                    
             </div>
-
+            </div> 
 
 </div>
 
