@@ -65,24 +65,24 @@ body{
       <div class="col-lg-7 px-5 py-5">
         <img class="logo py-3" src="assets/logo.png" alt="">
         <h4 class=" py-3">Sign into you account</h4>
-        <form action="">
+        <form action="./auth/login" method="POST">
           <div class="form-row">
             <div class="col-lg-7">
-              <input type="email" placeholder="Email-Address" name="" id="" class="form-control my-3 p-4">
+              <input type="email" placeholder="Email-Address" name="email" id="" class="form-control my-3 p-4">
             </div>
           </div>
           <div class="form-row">
             <div class="col-lg-7">
-              <input type="password" placeholder="*******" name="" id="" class="form-control my-3 p-4">
+              <input type="password" placeholder="*******" name="password" id="" class="form-control my-3 p-4">
             </div>
           </div>  
             <div class="form-row">
             <div class="col-lg-7">
-              <button type=button  class="btn1 mt-3 mb-5"><a href="./user"> Login in</a></button>
+              <button   class="btn1 mt-3 mb-5"> Login in</button>
             </div>
           </div>
           <a href="#">Forget Password</a>
-          <p >Don't have account? <a href="#">Register Here</a></p>
+          <p >Don't have account? <a href="./signup">Register Here</a></p>
         </form>
       </div>
     </div>

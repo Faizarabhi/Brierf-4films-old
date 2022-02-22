@@ -1,14 +1,12 @@
 <?php
 
-echo "from database";
-
     class Connection
     {
         private $servername = "localhost";
         private $username = "root";
         private $password = "";
         private $database="cinemaste";
-        private $conn;
+        protected $conn;
 
         public function __construct()
         {

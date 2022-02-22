@@ -1,6 +1,6 @@
 <?php
 
-        class ProduitController
+        class GestionController
         {
             
             public function __construct()

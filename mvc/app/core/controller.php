@@ -2,5 +2,5 @@
 
 class Controller
 {
-    
+    // method views model
 }

@@ -64,28 +64,28 @@ body{
       </div>
       <div class="col-lg-7 px-5 py-1">
         <img class="logo py-3" src="assets/logo.png" alt="">
-        <h4 class=" py-3">Sign In</h4>
+        <h4 class=" py-3">Sign Up</h4>
         <p>sign in to continue to our application</p>
-        <form action="">
+        <form action="./auth/create" method="POST">
           <div class="form-row">
           <div class="col-lg-7">
-              <input type="text" placeholder="Full-name" name="" id="" class="form-control my-3 p-3">
+              <input type="text" placeholder="Full-name" name="full_name" id="" class="form-control my-3 p-3">
             </div>
             <div class="col-lg-7">
-              <input type="text" placeholder="User-Name" name="" id="" class="form-control my-3 p-3">
+              <input type="text" placeholder="User-Name" name="username" id="" class="form-control my-3 p-3">
             </div>
             <div class="col-lg-7">
-              <input type="email" placeholder="Email-Address" name="" id="" class="form-control my-3 p-3">
+              <input type="email" placeholder="Email-Address" name="email" id="" class="form-control my-3 p-3">
             </div>
           </div>
           <div class="form-row">
             <div class="col-lg-7">
-              <input type="password" placeholder="*******" name="" id="" class="form-control my-3 p-3">
+              <input type="password" placeholder="*******" name="password" id="" class="form-control my-3 p-3">
             </div>
           </div>  
             <div class="form-row">
             <div class="col-lg-7">
-              <button type=button  class="btn1 mt-3 mb-5"><a href="./login"> Create Account </a></button>
+              <button  name="submit" class="btn1 mt-3 mb-5">Create Account</button>
             </div>
           </div>
 
