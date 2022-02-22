@@ -38,7 +38,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -47,7 +47,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -56,7 +56,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -74,7 +74,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -83,7 +83,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -92,7 +92,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <a href="#">Taha Lachgar</a>       
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
@@ -101,7 +101,7 @@
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
-                    <div class="comment w-75 ms-5 "style="background-color: gray;">
+                    <div class="comment w-75 ms-5 ">
                         <!-- <a href="#">Taha Lachgar</a>        -->
                         <form >
                     <input placeholder="write your comment here" class="w-75   border border-dark " style="height:30%;" type="text">

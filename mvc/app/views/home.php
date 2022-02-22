@@ -61,7 +61,7 @@
             background-color:#fff;
         }
         .bg{
-            background-color:#a80000 ;
+            background-color:#000;
             
         }
         
@@ -198,7 +198,6 @@
 <div class="bg">
 
 <div class="container">
-hello from Home
 
 
 

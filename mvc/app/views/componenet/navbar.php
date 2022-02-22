@@ -148,7 +148,7 @@
 
 <div class="navbar">
     <div class="max-width">
-        <div class="logo"><a href="#">Cine<span class="point">Master.</span></sapn></a></div>
+        <div class="logo"><a href="./">Cine<span class="point">Master.</span></sapn></a></div>
         <div>
         <ul class="menu">
             <!-- <li><a href="#">Home</a></li>

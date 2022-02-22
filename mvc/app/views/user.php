@@ -22,7 +22,7 @@
 <div class="row py-5 px-4">
     <div class="col-md-5 w-75 mx-auto">
         <!-- Profile widget -->
-        <div class="bg-white shadow rounded overflow-scroll">
+        <div class="bg-white shadow rounded ">
             <div class="px-4 pt-0 pb-4 cover">
                 <div class="media align-items-end profile-head">
                     <div class="profile mr-3"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#" class="btn btn-outline-dark btn-sm btn-block">Edit profile</a></div>
@@ -65,14 +65,19 @@
                 </div> -->
                 
 <div class="wrapper">
-   
+    
     <div class="container d-flex flex-column">
         <div class="post d-flex align-items-center">
         
-        <img src="assets/images/p-1.jpg" class="w-25" alt="">
 
+        <img src="assets/images/p-1.jpg" class="w-25" alt="">
+        
             <div class="description ms-5 d-flex flex-column">
-                <div>
+                <div> 
+                <div class="">
+                <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                </div>
                 <h1>Title 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
                 Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
@@ -93,6 +98,10 @@
 
             <div class="description ms-5 d-flex flex-column">
                 <div>
+                <div class="">
+                <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                </div>
                 <h1>Title 2</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
                 Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
@@ -113,6 +122,10 @@
 
             <div class="description ms-5 d-flex flex-column">
                 <div>
+                <div class="">
+                <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                </div>
                 <h1>Title 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
                 Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
@@ -133,6 +146,10 @@
 
             <div class="description ms-5 d-flex flex-column">
                 <div>
+                <div class="">
+                <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                </div>
                 <h1>Title 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
                 Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
