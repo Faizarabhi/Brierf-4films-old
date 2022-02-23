@@ -93,7 +93,7 @@
           content: "" ;
           top: -50%;
           transform: skewY(345deg);
-          transition: 1s ease-in;
+          transition: 300ms ease-in;
       }
       .card:hover::before{
           top :-70%;
@@ -109,21 +109,20 @@
       }
       .image img{
           max-width: 100%;
-
           transition: 0.7s ease-in;
           border-radius: 5px;
 
 
       }
       .card:hover .image img{
-          width: 80%;
+          transform: scale(0.9);
       }
       .about-film{
           position: absolute;
           bottom: -50px !important;
           left: 20%;color: #fff;
           text-align: center;
-          transition: 1s ease-in;
+          transition: 300ms ease-in;
 
       }
       .card:hover .about-film{
@@ -140,7 +139,7 @@
           margin-left : 25px;
       }
     </style>
-    <a href="./signup"> Sign up</a>
+    <!-- <a href="./signup"> Sign up</a> -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -153,10 +152,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h5>SPACE FORCE CAST MAKE A CASE FOR YOUR WEEKEND BINGE OF SEASON 2</h5>
         <p>TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.TAWNY NEWSOM E, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
-      <div class="slider-btn">
-      <div class="btn btn-1 " ><a href="/signup.php"> Sign up</a></div>
-          <div class="btn btn-2">Log in</div>
-      </div>
+      
     </div>
     </div>
     <div class="carousel-item">
@@ -165,10 +161,6 @@
       <h5>SPACE FORCE CAST MAKE A CASE FOR YOUR WEEKEND BINGE OF SEASON 2</h5>
         <p>TAWNY NEWSOME, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
 
-        <div class="slider-btn">
-          <div class="btn btn-1">Sign up</div>
-          <div class="btn btn-2">Log in</div>
-      </div>  
     </div>
    
     </div>
@@ -178,10 +170,7 @@
       <h5>SPACE FORCE CAST MAKE A CASE FOR YOUR WEEKEND BINGE OF SEASON 2</h5>
         <p>TAWNY NEWSOME, BEN SCHWARTZ, DIANA SILVERS, AND JIMMY O. YANG CLUE US IN ON SEASON 2 OF THE NETFLIX COMEDY.</p>
 
-        <div class="slider-btn">
-        <div class="btn btn-1">Sign up</div>
-          <div class="btn btn-2">Log in</div>
-      </div>
+      
       </div>
     </div>
   </div>
@@ -214,7 +203,7 @@
     </div>
 </div> -->
 
-<div class="wrapper">
+<div class="wrapper pb-5">
     <div class="card text-center">
         <div class="image">
             <img src="assets/image1.jpg" width="300" height="270px" alt="">

@@ -91,9 +91,6 @@
 
 
 
-.container{
-    margin-top: 2vw;
-}
 
 
 /* resonsive media query start */

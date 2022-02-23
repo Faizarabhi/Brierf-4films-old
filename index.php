@@ -2,6 +2,7 @@
 
 session_start();
 require_once "autoload.php";
+// kat3yt l controller li mhtajino
 
 $params = explode("/", $_GET['p']);
 // var_dump($params);
@@ -40,7 +41,6 @@ if(!empty($params[0])) {
             }
             else{
                 echo "<h1>page not found :)  !</h1>";
-
             }
         }
     }
