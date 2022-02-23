@@ -54,9 +54,9 @@
     .navbar.sticky .logo a span{
         color:#fff;
     }
-    .navbar .menu ul{
+    /* .navbar .menu ul{
 
-    }
+    } */
     .navbar .menu li{
         list-style: none;
         display: inline-block;
