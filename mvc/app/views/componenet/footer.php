@@ -1,40 +1,9 @@
-</div>
-<style>
-    <?php include('script.php'); ?>* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
 
-    }
+    <?php include('script.php'); ?>
 
-    .max-width {
-        max-width: 1300px;
-        padding: 0 80px;
-        margin: auto;
-    }
-
-    footer {
-        font-family: 'poppins', sans-serif;
-        color: gray;
-        padding: 20px 23px;
-        text-align: center;
-        font-weight: 400;
-        margin-bottom: 0;
-
-        /* background-color:#a80000; */
-        background-color: #2a0182;
-    }
-
-    footer span a {
-        color: red;
-        text-decoration: none;
-    }
-
-    footer span a:hover {
-        text-decoration: underline;
-    }
-</style>
+</div>    
+    
+    
 </div>
 <footer>
     <span>Created By <a href="#">CineMaster.</a> | &copy; 2020 All rights reseves.</span>
@@ -53,3 +22,4 @@
 </body>
 
 </html>
+

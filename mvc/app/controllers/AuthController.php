@@ -40,7 +40,8 @@ class AuthController
                 //R=[..A,..B] R=A union B avec l'ogique de A<= B
                 $_SESSION = [...$_SESSION, ...(array)$user];
                 header("location: ../user");
-            } else {
+            } 
+            else {
                 header("location: ../login");
             }
         }

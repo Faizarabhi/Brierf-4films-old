@@ -10,49 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
-    <style>
-    *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body{
-  background-color: #a80000;
-}
-.row{
-  background-color : #fff;
-  border-radius: 30px;
-  /* box-shadow : 12px 12px 22px #2a0182; */
-}
-.img-fluid{
-  border-top-left-radius : 30px;
-  border-bottom-left-radius : 30px;
-}
-.logo{
-  width: 100%;
-}
-.container{
-  margin-top: 10%;
-}
-  
-.btn1{
-  border: none;
-  outline: none;
-  height: 50px;
-  width: 100%;
-  background-color: #2a0182;
-  color: #fff;
-  border-radius: 4px;
-  font-weight:bold;
-}
-.btn1:hover{
-  background-color: #fff;
-  border:1px solid;
-  color :#2a0182;
-}
+<link rel="stylesheet" href="./mvc/app/styles/signup.css">
 
-
-    </style>
   </head>
   <body>
 

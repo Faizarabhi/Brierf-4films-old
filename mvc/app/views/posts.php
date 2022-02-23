@@ -46,6 +46,12 @@
         
     </div> 
     
+    
+    
+    
+    
+    
+
 </div>
  <div class="container d-flex flex-column">
     <div class="post d-flex align-items-center">
