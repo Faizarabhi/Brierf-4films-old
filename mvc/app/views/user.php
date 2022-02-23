@@ -1,22 +1,20 @@
 <style>
-    
-    .wrapper{
-            width: 100%;
+    .wrapper {
+        width: 100%;
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            /* background-color: #000; */
-        }
-    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: #000; */
+    }
 </style>
 
 
 
-   <?php 
-    require_once('componenet/navbar.php');
-    ?>
+<?php
+require_once('componenet/navbar.php');
+?>
 <!-- //show post o cmmetair dyalo  -->
 
 <div class="row py-5 px-4">
@@ -64,110 +62,113 @@
                     <div class="col-lg-6 pr-lg-1 mb-2"><img src="https://images.unsplash.com/photo-1453791052107-5c843da62d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
                     <div class="col-lg-6 pl-lg-1"><img src="https://images.unsplash.com/photo-1475724017904-b712052c192a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
                 </div> -->
-                
-<div class="wrapper">
-    
-    <div class="container d-flex flex-column">
-        <div class="post d-flex align-items-center">
-        
 
-        <img src="assets/images/p-1.jpg" class="w-25" alt="">
-        
-            <div class="description ms-5 d-flex flex-column">
-                <div> 
-                <div class="">
-                <a href="#" class="btn btn-link text-muted">Edit Post</a>
-                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                <div class="wrapper">
+
+                    <div class="container d-flex flex-column">
+                        <div class="post d-flex align-items-center">
+
+
+                            <img src="assets/images/p-1.jpg" class="w-25" alt="">
+
+                            <div class="description ms-5 d-flex flex-column">
+                                <div>
+                                    <div class="">
+                                        <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                                        <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                                    </div>
+                                    <h1>Title 1</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                                        Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                                        Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda <span style="color:gray" ;>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="container d-flex flex-column">
+                        <div class="post d-flex align-items-center">
+
+                            <img src="assets/images/p-4.jpg" class="w-25" alt="">
+
+                            <div class="description ms-5 d-flex flex-column">
+                                <div>
+                                    <div class="">
+                                        <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                                        <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                                    </div>
+                                    <h1>Title 2</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                                        Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                                        Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda <span style="color:gray" ;>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                                </div>
+                                <div></div>
+                                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <h1>Title 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
-                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
-                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                <div class="container d-flex flex-column">
+                    <div class="post d-flex align-items-center">
+
+                        <img src="assets/images/p-5.jpg" class="w-25" alt="">
+
+                        <div class="description ms-5 d-flex flex-column">
+                            <div>
+                                <div class="">
+                                    <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                                    <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                                </div>
+                                <h1>Title 3</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                                    Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                                    Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda <span style="color:gray" ;>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                            </div>
+                            <div></div>
+                            <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                        </div>
+                    </div>
+
                 </div>
-            <div>
-                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+
+            </div>
+            <div class="container d-flex flex-column">
+                <div class="post d-flex align-items-center">
+
+                    <img src="assets/images/p-6.jpg" class="w-25" alt="">
+
+                    <div class="description ms-5 d-flex flex-column">
+                        <div>
+                            <div class="">
+                                <a href="#" class="btn btn-link text-muted">Edit Post</a>
+                                <a href="#" class="btn btn-link text-muted">Delete Post</a>
+                            </div>
+                            <h1>Title 1</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
+                                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
+                                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda <span style="color:gray" ;>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span>
+                        </div>
+                        <div></div>
+                        <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-</div>
-        
-</div>
-    </div>
-<div class="container d-flex flex-column">
-    <div class="post d-flex align-items-center">
-        
-        <img src="assets/images/p-4.jpg" class="w-25" alt="">
-
-            <div class="description ms-5 d-flex flex-column">
-                <div>
-                <div class="">
-                <a href="#" class="btn btn-link text-muted">Edit Post</a>
-                <a href="#" class="btn btn-link text-muted">Delete Post</a>
-                </div>
-                <h1>Title 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
-                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
-                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
-                <div></div>
-                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
-                </div>
-            </div>
-        
-    </div> 
-    
-</div>
- <div class="container d-flex flex-column">
-    <div class="post d-flex align-items-center">
-        
-        <img src="assets/images/p-5.jpg" class="w-25" alt="">
-
-            <div class="description ms-5 d-flex flex-column">
-                <div>
-                <div class="">
-                <a href="#" class="btn btn-link text-muted">Edit Post</a>
-                <a href="#" class="btn btn-link text-muted">Delete Post</a>
-                </div>
-                <h1>Title 3</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
-                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
-                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
-                <div></div>
-                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
-                </div>
-            </div>
-        
-    </div> 
-    
-</div> 
-<div class="container d-flex flex-column">
-    <div class="post d-flex align-items-center">
-        
-        <img src="assets/images/p-6.jpg" class="w-25" alt="">
-
-            <div class="description ms-5 d-flex flex-column">
-                <div>
-                <div class="">
-                <a href="#" class="btn btn-link text-muted">Edit Post</a>
-                <a href="#" class="btn btn-link text-muted">Delete Post</a>
-                </div>
-                <h1>Title 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium minus, rerum, maiores earum tempora laboriosam ullam facilis similique voluptas quos iure sit, natus eveniet facere nihil corporis eos laborum.
-                Doloremque culpa sapiente, modi fugiat ex illo qui, odit ducimus magni quas nesciunt sequi doloribus sit blanditiis magnam enim. Delectus error cupiditate, illo autem itaque expedita quidem nihil repellat. Fugiat?
-                Ut tenetur veniam ipsa laborum facere, beatae reiciendis delectus assumenda  <span style="color:gray";>nostrum minima eos impedit nam aliquid est recusandae. Rerum eum rem veritatis facere nam qui ea saepe autem explicabo eligendi?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Atque sint facilis soluta ......</span> </div>
-                <div></div>
-                <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
-                </div>
-            </div>
-        
-    </div> 
-    
-</div>
 
 
 
 
-<?php 
-    require_once('componenet/footer.php');
-    ?>
+        <?php
+        require_once('componenet/footer.php');
+        ?>
