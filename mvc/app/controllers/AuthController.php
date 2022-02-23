@@ -44,7 +44,15 @@ class AuthController {
             }
         }
     }
-
+    public function logout()
+    {
+        session_start();
+        // var_dump($_POST);
+            // echo "im still here";
+            session_destroy();
+            header("location: ./login");
+    }
+    
 } 
         function array_remove($selections, $arr)
         {

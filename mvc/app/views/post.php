@@ -33,7 +33,7 @@
 
 
 
-        <div class="allcmnts" >
+        <div class="allcmnts p-5" >
         <div class="cmnt d-flex border border-dark align-items-center w-100 ">
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
