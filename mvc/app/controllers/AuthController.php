@@ -13,7 +13,6 @@ class AuthController
     public function signup()
     {
         var_dump($_POST);
-        // $model->insert("users", );
 
         header("location: home");
 
@@ -21,27 +20,46 @@ class AuthController
         // qdrna nrecupiriw data mn la page singnup direct
         //controller kan insstentiasyiw bih class model o o ndero traitement post o get o ndwz l view
     }
+    // public function create()
+    // {
+        
 
+        // if (isset($_POST['submit'])) {
+        //     $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+        //     $this->userModel->insert(array_remove(['submit'], $_POST));
+        //     header("location: ../login");
+        // }
+    
+
+   
     public function create()
     {
+        
+            try {  
+                    if (isset($_POST['submit'])) {
+                    $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+                    $this->userModel->insert(array_remove(['submit'], $_POST));
 
-        if (isset($_POST['submit'])) {
-            $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
-            $this->userModel->insert(array_remove(['submit'], $_POST));
-            header("location: ../login");
-        }
-    }
+                    header("location: ../login");
+
+                }
+                } 
+            catch (PDOException $e) {
+                
+                $_SESSION['dupli'] = "exist";
+                header("location: ../signup");
+    
+            }}
     public function login()
     {
         if (isset($_POST['email'])) {
             $user = $this->userModel->selectbyEmail($_POST["email"]);
             if ($user && password_verify($_POST['password'], $user->password)) {
-
+                
                 //R=[..A,..B] R=A union B avec l'ogique de A<= B
                 $_SESSION = [...$_SESSION, ...(array)$user];
                 header("location: ../user");
-            } 
-            else {
+            } else {
                 header("location: ../login");
             }
         }
@@ -54,12 +72,7 @@ class AuthController
         session_destroy();
         header("location: ./login");
     }
+
 }
-function array_remove($selections, $arr)
-{
-    $result = $arr;
-    foreach ($selections as $selection) {
-        unset($result[$selection]);
-    }
-    return $result;
-}
+
+

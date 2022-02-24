@@ -2,6 +2,8 @@
 
 
     class UserModel extends Connection{
+
+        // insert new user
         protected $table = "users";
 
         public function insert($data)
@@ -24,5 +26,6 @@
         $query->execute(["email" => $email]);
         return $query->fetch(PDO::FETCH_OBJ);
     }
+    
 
-            }
+}

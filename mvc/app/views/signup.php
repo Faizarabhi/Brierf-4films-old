@@ -34,6 +34,11 @@
               <input type="text" placeholder="User-Name" name="username" id="" class="form-control my-3 p-3">
             </div>
             <div class="col-lg-7">
+              <?php
+              if(isset($_SESSION['dupli'])){
+                echo "<h4 >Cette email est déja exist</h4>";
+                unset($_SESSION['dupli']);
+              } ?>
               <input type="email" placeholder="Email-Address" name="email" id="" class="form-control my-3 p-3">
             </div>
           </div>
@@ -45,6 +50,8 @@
             <div class="form-row">
             <div class="col-lg-7">
               <button  name="submit" class="btn1 mt-3 mb-5">Create Account</button>
+              <p >Do You have account <a href="./login">Click</a></p>
+
             </div>
           </div>
 

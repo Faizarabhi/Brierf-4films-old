@@ -4,15 +4,14 @@
     <?php include('script.php');?>
     <title>cine-master</title>
 
-<style>
- 
-</style>
+
 
 <link rel="stylesheet" href="./mvc/app/styles/footer.css"/>
 <link rel="stylesheet" href="./mvc/app/styles/navbar.css">
 <link rel="stylesheet" href="./mvc/app/styles/home.css">
-<!-- 
- -->
+<link rel="stylesheet" href="./mvc/app/styles/user.css">
+
+
 </head>
 <body>
 
