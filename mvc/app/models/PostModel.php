@@ -5,15 +5,7 @@ class PostModel extends Connection{
             //  get post 
     public function getALLPosts()
     {
-
-
-        
-        
-        
-
-        
-        
-        $stmt = $this->conn->prepare('SELECT 
+        $stmt = $this->conn->prepare("SELECT 
                             post.id as post_id,
                             users.id as user_id,
                             users.full_name as full_name,
@@ -24,13 +16,9 @@ class PostModel extends Connection{
                             post.movieName as movieName,
                             post.published_at as date_publier,
                             post.genre as genre,
-                            post.description as description,
-                            FROM $this->table
-                            INNER JOIN users
-                            ON post.id_user= users.user_id
-                            ORDER BY post.id DESC');
+                            post.description as description FROM post INNER JOIN users ON post.id_user = users.id ORDER BY post.id DESC");
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_OBJ);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
 

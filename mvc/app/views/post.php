@@ -43,7 +43,7 @@
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
             </div> 
-             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+            <div class="cmnt d-flex border border-dark align-items-center w-100 ">
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>
@@ -52,7 +52,7 @@
                         <p>ana lcommentair en personne Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque odio ipsa vitae voluptate voluptatem, illo exercitationem sed consequatur soluta architecto explicabo, neque harum. Neque, ex?</p>
                     </div>
             </div> 
-             <div class="cmnt d-flex border border-dark align-items-center w-100 ">
+            <div class="cmnt d-flex border border-dark align-items-center w-100 ">
                     <div class="h-25 w-25" style="background-color: #eee;">
                     <img src="assets/profil.jpg"  class="img-fluid rounded-circle"alt="">
                     </div>

@@ -1,9 +1,7 @@
 <?php
 require_once('componenet/navbar.php');
 ?>
-<style>
 
-</style>
 <!-- <a href="./signup"> Sign up</a> -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">

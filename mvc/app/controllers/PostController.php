@@ -17,10 +17,10 @@
             $getPost = new PostModel();
             return $getPost->getAllPosts();
         }
-    public function selectAllPost(){
+    // public function selectAllPost(){
 
 
-    }
+    // }
     
 
     public function updatePost($id){
