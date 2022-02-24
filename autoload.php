@@ -10,17 +10,18 @@ function array_remove($selections, $arr)
 }
 
 
-function autoload($class){
+function autoload($class)
+{
     $paths = [
         "classes",
         "models",
         "controllers",
         "core",
     ];
-    
-    foreach($paths as $path){
+
+    foreach ($paths as $path) {
         $filePath = "mvc/app/$path/$class.php";
-        if(file_exists($filePath)){
+        if (file_exists($filePath)) {
             require_once $filePath;
             break;
         }
