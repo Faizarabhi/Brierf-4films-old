@@ -1,8 +1,9 @@
 <?php
 
-class PostModel extends Connection{
-    protected $table ="post";
-            //  get post 
+class PostModel extends Connection
+{
+    protected $table = "post";
+    //  get post 
     public function getALLPosts()
     {
         $stmt = $this->conn->prepare("SELECT 
@@ -25,7 +26,7 @@ class PostModel extends Connection{
     public function getPost($id)
     {
 
-        
+
         $stmt = $this->conn->prepare('SELECT 
                             post.id as post_id,
                             users.id as user_id,
@@ -39,19 +40,18 @@ class PostModel extends Connection{
                             post.genre as genre,
                             post.description as description,
                             FROM $this->table 
-                            INNER JOIN users
-                            ON post.id_user= users.user_id
+                            INNER JOIN users ON post.id_user= users.user_id
                             WHERE post.id = $id
                             ORDER BY post.id DESC');
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_OBJ);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
-public function addPost($data, $user_id)
+    public function addPost($data, $user_id)
     {
-    
-        
+
+
         $query = $this->conn->prepare("INSERT INTO $this->table (id_user,title, photo,movieName, description, genre) values (:user,:title, :photo, :movieName, :description, :genre)");
-        
+
         return $query->execute([...$data, "user" => $user_id]);
     }
 
@@ -61,9 +61,4 @@ public function addPost($data, $user_id)
 
         return $query->execute($data);
     }
-
-    
-        }
-        
-
-    
+}

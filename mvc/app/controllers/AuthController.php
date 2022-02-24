@@ -22,40 +22,39 @@ class AuthController
     }
     // public function create()
     // {
-        
 
-        // if (isset($_POST['submit'])) {
-        //     $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
-        //     $this->userModel->insert(array_remove(['submit'], $_POST));
-        //     header("location: ../login");
-        // }
-    
 
-   
+    // if (isset($_POST['submit'])) {
+    //     $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    //     $this->userModel->insert(array_remove(['submit'], $_POST));
+    //     header("location: ../login");
+    // }
+
+
+
     public function create()
     {
-        
-            try {  
-                    if (isset($_POST['submit'])) {
-                    $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
-                    $this->userModel->insert(array_remove(['submit'], $_POST));
 
-                    header("location: ../login");
+        try {
+            if (isset($_POST['submit'])) {
+                $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+                $this->userModel->insert(array_remove(['submit'], $_POST));
 
-                }
-                } 
-            catch (PDOException $e) {
-                
-                $_SESSION['dupli'] = "exist";
-                header("location: ../signup");
-    
-            }}
+
+                header("location: ../login");
+            }
+        } catch (PDOException $e) {
+
+            $_SESSION['dupli'] = "exist";
+            header("location: ../signup");
+        }
+    }
     public function login()
     {
         if (isset($_POST['email'])) {
             $user = $this->userModel->selectbyEmail($_POST["email"]);
             if ($user && password_verify($_POST['password'], $user->password)) {
-                
+
                 //R=[..A,..B] R=A union B avec l'ogique de A<= B
                 $_SESSION = [...$_SESSION, ...(array)$user];
                 header("location: ../user");
@@ -67,12 +66,8 @@ class AuthController
     public function logout()
     {
         session_start();
-        // var_dump($_POST);
-        // echo "im still here";
+
         session_destroy();
         header("location: ./login");
     }
-
 }
-
-

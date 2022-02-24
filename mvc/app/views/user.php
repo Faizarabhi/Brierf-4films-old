@@ -1,6 +1,3 @@
-
-
-
 <?php
 require_once('componenet/navbar.php');
 ?>
@@ -62,8 +59,8 @@ require_once('componenet/navbar.php');
                                         <a href="#" class="btn btn-link text-muted">Edit Post</a>
                                         <a href="#" class="btn btn-link text-muted">Delete Post</a>
                                     </div>
-                                    <h1><?php  ;?></h1>
-                                    <p><?php ;?></p>
+                                    <h1></h1>
+                                    <p></p>
                                 </div>
                                 <div>
                                     <button type="button" class="btn btn-dark w-25"><a href="./post">Show more</a></button>
