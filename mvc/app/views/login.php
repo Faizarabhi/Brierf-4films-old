@@ -44,7 +44,8 @@
                 <button class="btn1 mt-3 mb-5"> Login in</button>
               </div>
             </div>
-            <a href="#">Forget Password</a>
+            <a href="#">Forget Password</a> 
+
             <p>Don't have account? <a href="./signup">Register Here</a></p>
           </form>
         </div>

@@ -23,8 +23,18 @@
         public function selectbyEmail($email)
     {
         $query = $this->conn->prepare("SELECT * FROM ".$this->table." where email = :email");
+        
         $query->execute(["email" => $email]);
-        return $query->fetch(PDO::FETCH_OBJ);
+
+        return $query->fetch(PDO::FETCH_ASSOC);
+    }  
+    public function selectbyId($id)
+    {
+        $query = $this->conn->prepare("SELECT * FROM ".$this->table." where id = :id");
+        
+        $query->execute(["id" => $id]);
+
+        return $query->fetch(PDO::FETCH_ASSOC);
     }
     
 

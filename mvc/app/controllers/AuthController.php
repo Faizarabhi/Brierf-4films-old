@@ -53,15 +53,20 @@ class AuthController
     {
         if (isset($_POST['email'])) {
             $user = $this->userModel->selectbyEmail($_POST["email"]);
-            if ($user && password_verify($_POST['password'], $user->password)) {
-
+            if ($user && password_verify($_POST['password'], $user['password'])) {
+                //selectioner ligne user o recupirer f $_SESSION
+                $_SESSION['id_user']=$user['id'];
                 //R=[..A,..B] R=A union B avec l'ogique de A<= B
-                $_SESSION = [...$_SESSION, ...(array)$user];
+                // $_SESSION = [...$_SESSION, ...$user];
                 header("location: ../user");
             } else {
                 header("location: ../login");
+        
             }
         }
+    }
+    public function selectuser($id){
+        return $userone= $this->userModel->selectbyId($id);
     }
     public function logout()
     {

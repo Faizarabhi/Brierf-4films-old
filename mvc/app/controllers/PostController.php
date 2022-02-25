@@ -2,11 +2,12 @@
 class PostController
 {
     public function addpost()
-    {
+    {   
 
+        
         if (isset($_POST['add'])) {
             $addp = new PostModel();
-            $isCreated = $addp->addpost(array_remove(['add'], $_POST), $_SESSION['id']);
+            $isCreated = $addp->addpost(array_remove(['add'], $_POST), $_SESSION['id_user']);
             if ($isCreated) {
                 header("location: ../user");
             }
@@ -17,6 +18,11 @@ class PostController
     {
         $getPost = new PostModel();
         return $getPost->getAllPosts();
+    }
+    public function selectPostsuser()
+    {
+        $getPost = new PostModel();
+        return $getPost->getALLPostsByid($_SESSION['id_user']);
     }
     public function selectPost($id)
     {
