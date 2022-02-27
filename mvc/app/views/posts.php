@@ -1,8 +1,8 @@
 <?php
 require_once('componenet/navbar.php');
 
-$posts = new PostController();
-$posts = $posts->selectPosts();
+$postsU = new PostController();
+$posts = $postsU->selectPosts();
 
 ?>
 
@@ -22,10 +22,10 @@ $posts = $posts->selectPosts();
                 <div>
 
                 </div>
-                <form action="">
+                <form action="onepost" method="post"> 
                     <input type="hidden" name="idPost" value="<?= $post['post_id']; ?>">
-                    <button type="button" class="btn btn-dark w-25">View more</button>
-                </form>
+                    <input type="submit" class="btn btn-dark w-25" name="vMore"></input>
+                </form> 
             </div>
         </div>
 

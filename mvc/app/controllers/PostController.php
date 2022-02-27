@@ -24,12 +24,22 @@ class PostController
         $getPost = new PostModel();
         return $getPost->getALLPostsByid($_SESSION['id_user']);
     }
-    public function selectPost($id)
-    {
-        $getPost = new PostModel($id);
-        return $getPost->getPost($id);
-    }
 
+    // public function selectPost()
+    // {
+    //     if(isset($_POST['vMore']))
+    //     {
+    //         $id = $_POST['idPost'];
+    //         $_SESSION['id'] = $id;
+    //         header("location: ../onepost");
+    //     }
+    // }
+    public function showPost($id)
+    {
+        $getPost = new PostModel();
+        return $getPost->getPost($id);
+
+    }
 
     public function updatePost($id)
     {

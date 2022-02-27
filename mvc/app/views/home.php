@@ -74,7 +74,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
             <div class="card text-center">
@@ -84,7 +84,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
             <div class="card text-center">
@@ -94,7 +94,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
             <div class="card text-center">
@@ -104,7 +104,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
             <div class="card text-center">
@@ -114,7 +114,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
             <div class="card text-center">
@@ -124,7 +124,7 @@ require_once('componenet/navbar.php');
                 <div class="about-film text-center">
                     <h3>Title film1</h3>
                     <h4>chi <small>haja</small></h4>
-                    <button class="btn btn-success button"><a href="./post">Show more</a></button>
+                    <button class="btn btn-success button"><a href="./onepost">Show more</a></button>
                 </div>
             </div>
         </div>

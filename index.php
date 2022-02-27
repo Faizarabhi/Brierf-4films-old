@@ -9,6 +9,7 @@ require_once "autoload.php";
 $params = explode("/", $_GET['p']);
 // var_dump($params);
 
+
 if (!empty($params[0])) {
 
     // produit/create
